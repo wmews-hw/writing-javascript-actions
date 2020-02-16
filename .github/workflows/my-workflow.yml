@@ -9,3 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: hello-actions
+      uses: ./.github/actions/hello-world
+      
